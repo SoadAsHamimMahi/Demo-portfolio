@@ -1,67 +1,127 @@
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+
 }
 
-body {
-    background: url('/images/banner/banner3.png');
-    width: 1600px;
-    height: 808px;
+/* body {
+    max-width: 1140px;
+    width: 71%;
+    margin: 0 auto;
+
+} */
+
+header {
+    background-image: url(/images/banner/banner3.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top center;
+    margin: 0px;
+}
+
+header .headerr {
+    max-width: 1140px;
+    width: 71%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    height: 100vh;
+    /* Set the height to 100% of the viewport height */
+    padding: 20px;
+    /* Add some padding for better spacing */
+}
+
+header .headerr h2,
+header .headerr p {
+    text-align: right;
+}
+
+header .headerr h2 {
+    color: #FFF;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: normal;
+    width: 525px;
+}
+
+p {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 494px;
+}
+
+header .headerr button {
+    color: #005FAC;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 5px;
+    background: #FFF;
+    width: 160px;
+    height: 64px;
+    border: none;
+}
+
+section .myfailure {
+    display: flex;   
+    justify-items: center;
+    justify-content: space-evenly;
+    align-items: center;
 
 }
 
-.believe {
-    width: 525px;
-    color: #FFF;
-    text-align: right;
-    font-family: Work Sans;
-    font-size: 65px;
+section .myfailure .failureimage {
+    /* width: 451px;
+    height: 898px; */
+    width: 527.929px;
+
+    height: 527.929px;
+    border-radius: 527.929px;
+
+}
+
+/* section .failuretext{
+    justify-items: center ;
+} */
+
+
+ h2 {
+    color: var(--Dark-01, #151414);
+    font-size: 40px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-
-    margin: 216px 230px 364px 845px;
-    margin-bottom: 0px;
+    width: 288px;
 }
 
-.paragraph {
-    color: #FFF;
-    text-align: right;
-    font-family: Work Sans;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 26px;
+section .failuretext p, li{
+    color: var(--Dark-02, #444343);
 }
 
-.intro {
-    height: 78px;
-    width: 494px;
-    margin: 468px 230px 262px 876px;
+section .myfailure *{
     margin-top: 24px;
-    margin-bottom: 0px
 }
 
-.button a {
-    color: #005FAC;
-    text-align: right;
-    font-family: Work Sans;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    text-decoration: none;
+.myfailure{
+height: 898px;
 
 }
 
-.button {
-    padding: 20px 25px;
-    border-radius: 5px;
-    background: #FFF;
-    border-style: none;
-    margin: 578px 230px 166px 1210px;
-    margin-top: 32px;
+.section2{
+    margin-top: 200px;
+}
+
+
+.section2{
+    text-align: center;
+}
+
+.skilles{
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
 }
